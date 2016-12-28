@@ -10,7 +10,7 @@ var denpm = function(name){
 };
 
 stealExport({
-  system: {
+  steal: {
     config: __dirname + "/package.json!npm",
     main: ["fs-web", "fs-web/global"]
   },
